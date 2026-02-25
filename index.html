@@ -1,0 +1,37 @@
+<html lang="en">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <h1>The Living Scroll</h1>
+
+    </head>
+
+    <body>
+
+
+        <textarea id="scrollText" name="message" rows="6" cols="50">
+            This is some default text that will appear inside the text area. 
+            You can type more here, and the box will automatically become scrollable 
+            if the content gets too long.
+        </textarea>
+        <button type="submit" id="submit" onclick=add()>Add</button>
+        
+        
+        <p id="counter">Total Entries: 0</p>
+        <p id="emptyState">The scroll is empty.</p>
+
+
+        <div>
+            Entries: 
+            <ul id = "list"></ul>
+        </div>
+
+        <script src="script.js"></script>
+
+
+    </body>
+    
+</html>
